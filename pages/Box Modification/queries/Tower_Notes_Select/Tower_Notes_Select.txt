@@ -1,0 +1,1 @@
+SELECT notes FROM towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}};

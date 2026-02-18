@@ -1,0 +1,1 @@
+UPDATE towerImages SET notes = {{Tower_Photos_Table.updatedRow.notes}} WHERE ID = {{Tower_Photos_Table.updatedRow.ID}};

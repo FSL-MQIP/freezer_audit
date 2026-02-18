@@ -1,0 +1,1 @@
+SELECT CAST(LPAD({{Range_Number.text}}+({{Range_End.text}}-{{Range_Start.text}}), 4, 0) AS CHAR) AS end;

@@ -1,0 +1,4 @@
+UPDATE slots
+SET
+	isolate = NULL
+WHERE box = (SELECT ID from boxes WHERE tower = (SELECT ID from towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) AND box = {{appsmith.store.Current_Box}}) AND slot = {{appsmith.store.Current_Slot}};

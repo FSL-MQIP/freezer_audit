@@ -1,0 +1,4 @@
+SELECT
+	*,
+	IF(towers IN (33, 36), "chest", "upright") AS type
+FROM freezers WHERE ID = {{Freezer_Select_Select.selectedOptionValue}};

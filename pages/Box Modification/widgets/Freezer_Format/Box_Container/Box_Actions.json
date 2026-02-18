@@ -1,0 +1,118 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 33,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonm91cxkcibo.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonb3dfpcfqsa.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "green",
+      "buttonType": "SIMPLE",
+      "iconName": "add",
+      "id": "groupButton1",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Populate Box",
+      "menuItems": {},
+      "onClick": "{{showModal(Populate_Modal.name);}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "forestgreen",
+      "buttonType": "SIMPLE",
+      "iconName": "camera",
+      "id": "groupButton2",
+      "index": 3,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Box Photos",
+      "menuItems": {},
+      "onClick": "{{showModal(Box_Photos_Modal.name).then(() => {\n  Box_Photo_Select.run();\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtonb3dfpcfqsa": {
+      "buttonColor": "green",
+      "buttonType": "SIMPLE",
+      "iconName": "arrows-horizontal",
+      "id": "groupButtonb3dfpcfqsa",
+      "index": 2,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Populate Range",
+      "menuItems": {},
+      "onClick": "{{showModal(Range_Modal.name);}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "tpsezz9nk0"
+    },
+    "groupButtonm91cxkcibo": {
+      "buttonColor": "darkgreen",
+      "buttonType": "SIMPLE",
+      "iconName": "list-detail-view",
+      "id": "groupButtonm91cxkcibo",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Box Details",
+      "menuItems": {},
+      "onClick": "{{Tower_Helper.run().then(() => {\n  Box_Helper.run();\n  Boxes_Select.run();\n  showModal(Box_Details_Modal.name);\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "fj52nglv58"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vpsis4ikmi",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "orientation": "vertical",
+  "parentColumnSpace": 19.875,
+  "parentId": "3914zyb8d6",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 34,
+  "topRow": 0,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "uctk6gezd1",
+  "widgetName": "Box_Actions"
+}

@@ -1,0 +1,10 @@
+SELECT 
+	slots.ID,
+	slots.slot,
+	slots.isolate,
+	IFNULL(CONCAT(designations.designation, "-", LPAD(isolates.number, 4, 0)), "empty") AS fslID,
+	IF(CONCAT(designations.designation, "-", LPAD(isolates.number, 4, 0)) IS NULL, "yellow", "lightsalmon") AS color
+FROM (slots LEFT JOIN isolates ON slots.isolate = isolates.ID) LEFT JOIN designations ON isolates.designation = designations.ID
+WHERE 
+	box = (SELECT ID from boxes WHERE tower = (SELECT ID FROM towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) AND box = {{appsmith.store.Current_Box}}) 
+	AND slot IN (8, 17, 26, 35, 44, 53, 62, 71, 80);

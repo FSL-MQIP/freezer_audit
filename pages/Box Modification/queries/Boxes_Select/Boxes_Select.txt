@@ -1,0 +1,1 @@
+SELECT DISTINCT ID, box FROM boxes WHERE tower = (SELECT ID FROM towers WHERE freezer = {{Tower_Details_Freezer.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) ORDER BY box

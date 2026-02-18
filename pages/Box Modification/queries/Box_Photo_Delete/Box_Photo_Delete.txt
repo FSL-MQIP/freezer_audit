@@ -1,0 +1,1 @@
+DELETE FROM boxImages WHERE ID = {{Box_Photos_Table.triggeredRow.ID}};

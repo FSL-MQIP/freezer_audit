@@ -1,0 +1,6 @@
+INSERT INTO boxImages (box, image)
+VALUES
+	((SELECT ID from boxes 
+		WHERE tower = (SELECT ID FROM towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}})
+		AND box = {{appsmith.store.Current_Box}}),
+		{{Box_Photos_Camera.imageDataURL}});

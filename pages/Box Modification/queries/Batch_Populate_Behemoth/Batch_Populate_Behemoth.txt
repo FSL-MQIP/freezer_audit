@@ -1,0 +1,502 @@
+INSERT INTO isolatesHelper (designation, number, present)
+VALUES
+	(
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 0}}, # Number
+	IF({{Populate_Modal_Start.text + 0}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 0}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 1}}, # Number
+	IF({{Populate_Modal_Start.text + 1}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 1}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 2}}, # Number
+	IF({{Populate_Modal_Start.text + 2}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 2}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 3}}, # Number
+	IF({{Populate_Modal_Start.text + 3}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 3}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 4}}, # Number
+	IF({{Populate_Modal_Start.text + 4}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 4}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 5}}, # Number
+	IF({{Populate_Modal_Start.text + 5}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 5}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 6}}, # Number
+	IF({{Populate_Modal_Start.text + 6}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 6}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 7}}, # Number
+	IF({{Populate_Modal_Start.text + 7}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 7}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 8}}, # Number
+	IF({{Populate_Modal_Start.text + 8}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 8}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 9}}, # Number
+	IF({{Populate_Modal_Start.text + 9}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 9}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 10}}, # Number
+	IF({{Populate_Modal_Start.text + 10}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 10}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 11}}, # Number
+	IF({{Populate_Modal_Start.text + 11}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 11}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 12}}, # Number
+	IF({{Populate_Modal_Start.text + 12}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 12}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 13}}, # Number
+	IF({{Populate_Modal_Start.text + 13}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 13}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 14}}, # Number
+	IF({{Populate_Modal_Start.text + 14}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 14}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 15}}, # Number
+	IF({{Populate_Modal_Start.text + 15}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 15}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 16}}, # Number
+	IF({{Populate_Modal_Start.text + 16}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 16}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 17}}, # Number
+	IF({{Populate_Modal_Start.text + 17}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 17}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 18}}, # Number
+	IF({{Populate_Modal_Start.text + 18}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 18}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 19}}, # Number
+	IF({{Populate_Modal_Start.text + 19}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 19}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 20}}, # Number
+	IF({{Populate_Modal_Start.text + 20}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 20}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 21}}, # Number
+	IF({{Populate_Modal_Start.text + 21}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 21}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 22}}, # Number
+	IF({{Populate_Modal_Start.text + 22}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 22}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 23}}, # Number
+	IF({{Populate_Modal_Start.text + 23}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 23}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 24}}, # Number
+	IF({{Populate_Modal_Start.text + 24}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 24}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 25}}, # Number
+	IF({{Populate_Modal_Start.text + 25}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 25}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 26}}, # Number
+	IF({{Populate_Modal_Start.text + 26}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 26}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 27}}, # Number
+	IF({{Populate_Modal_Start.text + 27}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 27}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 28}}, # Number
+	IF({{Populate_Modal_Start.text + 28}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 28}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 29}}, # Number
+	IF({{Populate_Modal_Start.text + 29}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 29}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 30}}, # Number
+	IF({{Populate_Modal_Start.text + 30}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 30}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 31}}, # Number
+	IF({{Populate_Modal_Start.text + 31}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 31}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 32}}, # Number
+	IF({{Populate_Modal_Start.text + 32}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 32}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 33}}, # Number
+	IF({{Populate_Modal_Start.text + 33}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 33}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 34}}, # Number
+	IF({{Populate_Modal_Start.text + 34}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 34}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 35}}, # Number
+	IF({{Populate_Modal_Start.text + 35}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 35}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 36}}, # Number
+	IF({{Populate_Modal_Start.text + 36}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 36}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 37}}, # Number
+	IF({{Populate_Modal_Start.text + 37}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 37}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 38}}, # Number
+	IF({{Populate_Modal_Start.text + 38}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 38}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 39}}, # Number
+	IF({{Populate_Modal_Start.text + 39}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 39}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 40}}, # Number
+	IF({{Populate_Modal_Start.text + 40}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 40}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 41}}, # Number
+	IF({{Populate_Modal_Start.text + 41}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 41}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 42}}, # Number
+	IF({{Populate_Modal_Start.text + 42}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 42}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 43}}, # Number
+	IF({{Populate_Modal_Start.text + 43}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 43}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 44}}, # Number
+	IF({{Populate_Modal_Start.text + 44}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 44}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 45}}, # Number
+	IF({{Populate_Modal_Start.text + 45}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 45}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 46}}, # Number
+	IF({{Populate_Modal_Start.text + 46}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 46}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 47}}, # Number
+	IF({{Populate_Modal_Start.text + 47}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 47}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 48}}, # Number
+	IF({{Populate_Modal_Start.text + 48}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 48}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 49}}, # Number
+	IF({{Populate_Modal_Start.text + 49}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 49}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 50}}, # Number
+	IF({{Populate_Modal_Start.text + 50}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 50}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 51}}, # Number
+	IF({{Populate_Modal_Start.text + 51}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 51}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 52}}, # Number
+	IF({{Populate_Modal_Start.text + 52}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 52}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 53}}, # Number
+	IF({{Populate_Modal_Start.text + 53}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 53}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 54}}, # Number
+	IF({{Populate_Modal_Start.text + 54}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 54}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 55}}, # Number
+	IF({{Populate_Modal_Start.text + 55}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 55}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 56}}, # Number
+	IF({{Populate_Modal_Start.text + 56}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 56}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 57}}, # Number
+	IF({{Populate_Modal_Start.text + 57}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 57}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 58}}, # Number
+	IF({{Populate_Modal_Start.text + 58}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 58}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 59}}, # Number
+	IF({{Populate_Modal_Start.text + 59}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 59}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 60}}, # Number
+	IF({{Populate_Modal_Start.text + 60}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 60}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 61}}, # Number
+	IF({{Populate_Modal_Start.text + 61}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 61}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 62}}, # Number
+	IF({{Populate_Modal_Start.text + 62}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 62}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 63}}, # Number
+	IF({{Populate_Modal_Start.text + 63}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 63}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 64}}, # Number
+	IF({{Populate_Modal_Start.text + 64}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 64}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 65}}, # Number
+	IF({{Populate_Modal_Start.text + 65}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 65}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 66}}, # Number
+	IF({{Populate_Modal_Start.text + 66}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 66}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 67}}, # Number
+	IF({{Populate_Modal_Start.text + 67}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 67}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 68}}, # Number
+	IF({{Populate_Modal_Start.text + 68}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 68}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 69}}, # Number
+	IF({{Populate_Modal_Start.text + 69}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 69}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 70}}, # Number
+	IF({{Populate_Modal_Start.text + 70}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 70}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 71}}, # Number
+	IF({{Populate_Modal_Start.text + 71}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 71}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 72}}, # Number
+	IF({{Populate_Modal_Start.text + 72}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 72}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 73}}, # Number
+	IF({{Populate_Modal_Start.text + 73}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 73}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 74}}, # Number
+	IF({{Populate_Modal_Start.text + 74}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 74}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 75}}, # Number
+	IF({{Populate_Modal_Start.text + 75}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 75}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 76}}, # Number
+	IF({{Populate_Modal_Start.text + 76}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 76}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 77}}, # Number
+	IF({{Populate_Modal_Start.text + 77}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 77}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 78}}, # Number
+	IF({{Populate_Modal_Start.text + 78}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 78}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 79}}, # Number
+	IF({{Populate_Modal_Start.text + 79}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 79}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  ),
+  (
+	{{Populate_Modal_Designation.selectedOptionValue}}, # Designation
+	{{Populate_Modal_Start.text + 80}}, # Number
+	IF({{Populate_Modal_Start.text + 80}} IN ({{Populate_Modal_Checkboxes.selectedValues.map(num => Number(num) - 1 + Number(Populate_Modal_Start.text)).join(', ')}}) AND {{Populate_Modal_Start.text + 80}} <= {{Populate_Modal_Last.text}}, 1, 0) # Present
+  );
+
+INSERT IGNORE INTO isolates (designation, number)
+SELECT designation, number FROM isolatesHelper WHERE present = 1;
+
+UPDATE slots
+SET
+	isolate = (CASE slot 
+						 WHEN 1 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 0}} AND isolatesHelper.present = 1)
+						 WHEN 2 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 1}} AND isolatesHelper.present = 1)
+						 WHEN 3 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 2}} AND isolatesHelper.present = 1)
+						 WHEN 4 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 3}} AND isolatesHelper.present = 1)
+						 WHEN 5 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 4}} AND isolatesHelper.present = 1)
+						 WHEN 6 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 5}} AND isolatesHelper.present = 1)
+						 WHEN 7 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 6}} AND isolatesHelper.present = 1)
+						 WHEN 8 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 7}} AND isolatesHelper.present = 1)
+						 WHEN 9 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 8}} AND isolatesHelper.present = 1)
+						 WHEN 10 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 9}} AND isolatesHelper.present = 1)
+						 WHEN 11 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 10}} AND isolatesHelper.present = 1)
+						 WHEN 12 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 11}} AND isolatesHelper.present = 1)
+						 WHEN 13 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 12}} AND isolatesHelper.present = 1)
+						 WHEN 14 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 13}} AND isolatesHelper.present = 1)
+						 WHEN 15 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 14}} AND isolatesHelper.present = 1)
+						 WHEN 16 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 15}} AND isolatesHelper.present = 1)
+						 WHEN 17 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 16}} AND isolatesHelper.present = 1)
+						 WHEN 18 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 17}} AND isolatesHelper.present = 1)
+						 WHEN 19 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 18}} AND isolatesHelper.present = 1)
+						 WHEN 20 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 19}} AND isolatesHelper.present = 1)
+						 WHEN 21 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 20}} AND isolatesHelper.present = 1)
+						 WHEN 22 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 21}} AND isolatesHelper.present = 1)
+						 WHEN 23 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 22}} AND isolatesHelper.present = 1)
+						 WHEN 24 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 23}} AND isolatesHelper.present = 1)
+						 WHEN 25 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 24}} AND isolatesHelper.present = 1)
+						 WHEN 26 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 25}} AND isolatesHelper.present = 1)
+						 WHEN 27 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 26}} AND isolatesHelper.present = 1)
+						 WHEN 28 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 27}} AND isolatesHelper.present = 1)
+						 WHEN 29 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 28}} AND isolatesHelper.present = 1)
+						 WHEN 30 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 29}} AND isolatesHelper.present = 1)
+						 WHEN 31 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 30}} AND isolatesHelper.present = 1)
+						 WHEN 32 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 31}} AND isolatesHelper.present = 1)
+						 WHEN 33 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 32}} AND isolatesHelper.present = 1)
+						 WHEN 34 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 33}} AND isolatesHelper.present = 1)
+						 WHEN 35 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 34}} AND isolatesHelper.present = 1)
+						 WHEN 36 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 35}} AND isolatesHelper.present = 1)
+						 WHEN 37 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 36}} AND isolatesHelper.present = 1)
+						 WHEN 38 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 37}} AND isolatesHelper.present = 1)
+						 WHEN 39 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 38}} AND isolatesHelper.present = 1)
+						 WHEN 40 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 39}} AND isolatesHelper.present = 1)
+						 WHEN 41 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 40}} AND isolatesHelper.present = 1)
+						 WHEN 42 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 41}} AND isolatesHelper.present = 1)
+						 WHEN 43 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 42}} AND isolatesHelper.present = 1)
+						 WHEN 44 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 43}} AND isolatesHelper.present = 1)
+						 WHEN 45 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 44}} AND isolatesHelper.present = 1)
+						 WHEN 46 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 45}} AND isolatesHelper.present = 1)
+						 WHEN 47 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 46}} AND isolatesHelper.present = 1)
+						 WHEN 48 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 47}} AND isolatesHelper.present = 1)
+						 WHEN 49 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 48}} AND isolatesHelper.present = 1)
+						 WHEN 50 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 49}} AND isolatesHelper.present = 1)
+						 WHEN 51 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 50}} AND isolatesHelper.present = 1)
+						 WHEN 52 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 51}} AND isolatesHelper.present = 1)
+						 WHEN 53 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 52}} AND isolatesHelper.present = 1)
+						 WHEN 54 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 53}} AND isolatesHelper.present = 1)
+						 WHEN 55 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 54}} AND isolatesHelper.present = 1)
+						 WHEN 56 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 55}} AND isolatesHelper.present = 1)
+						 WHEN 57 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 56}} AND isolatesHelper.present = 1)
+						 WHEN 58 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 57}} AND isolatesHelper.present = 1)
+						 WHEN 59 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 58}} AND isolatesHelper.present = 1)
+						 WHEN 60 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 59}} AND isolatesHelper.present = 1)
+						 WHEN 61 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 60}} AND isolatesHelper.present = 1)
+						 WHEN 62 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 61}} AND isolatesHelper.present = 1)
+						 WHEN 63 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 62}} AND isolatesHelper.present = 1)
+						 WHEN 64 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 63}} AND isolatesHelper.present = 1)
+						 WHEN 65 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 64}} AND isolatesHelper.present = 1)
+						 WHEN 66 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 65}} AND isolatesHelper.present = 1)
+						 WHEN 67 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 66}} AND isolatesHelper.present = 1)
+						 WHEN 68 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 67}} AND isolatesHelper.present = 1)
+						 WHEN 69 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 68}} AND isolatesHelper.present = 1)
+						 WHEN 70 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 69}} AND isolatesHelper.present = 1)
+						 WHEN 71 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 70}} AND isolatesHelper.present = 1)
+						 WHEN 72 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 71}} AND isolatesHelper.present = 1)
+						 WHEN 73 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 72}} AND isolatesHelper.present = 1)
+						 WHEN 74 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 73}} AND isolatesHelper.present = 1)
+						 WHEN 75 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 74}} AND isolatesHelper.present = 1)
+						 WHEN 76 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 75}} AND isolatesHelper.present = 1)
+						 WHEN 77 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 76}} AND isolatesHelper.present = 1)
+						 WHEN 78 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 77}} AND isolatesHelper.present = 1)
+						 WHEN 79 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 78}} AND isolatesHelper.present = 1)
+						 WHEN 80 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 79}} AND isolatesHelper.present = 1)
+						 WHEN 81 THEN (SELECT isolates.ID FROM isolates LEFT JOIN isolatesHelper ON isolates.designation = isolatesHelper.designation AND isolates.number = isolatesHelper.number WHERE isolates.designation = {{Populate_Modal_Designation.selectedOptionValue}} AND isolates.number = {{Populate_Modal_Start.text + 80}} AND isolatesHelper.present = 1)
+						END)
+WHERE 
+	box = (SELECT ID from boxes WHERE tower = (SELECT ID FROM towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) AND box = {{appsmith.store.Current_Box}}) AND
+	slot IN ({{Populate_Modal_Checkboxes.selectedValues.join(', ')}}) AND
+	slot <= {{Populate_Modal_Last.text - Populate_Modal_Start.text + 1}};
+	
+DELETE FROM isolatesHelper;

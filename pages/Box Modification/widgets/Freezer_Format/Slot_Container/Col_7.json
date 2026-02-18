@@ -1,0 +1,384 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 56,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton1.label"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.label"
+    },
+    {
+      "key": "groupButtons.groupButton3.label"
+    },
+    {
+      "key": "groupButtons.groupButtonx8jvgi8xgi.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonvnk464g7y2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonxzorlu09w6.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonpuvvhj1ash.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonikjy0mdf39.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonbxht52hxlm.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonx8jvgi8xgi.label"
+    },
+    {
+      "key": "groupButtons.groupButtonvnk464g7y2.label"
+    },
+    {
+      "key": "groupButtons.groupButtonxzorlu09w6.label"
+    },
+    {
+      "key": "groupButtons.groupButtonpuvvhj1ash.label"
+    },
+    {
+      "key": "groupButtons.groupButtonikjy0mdf39.label"
+    },
+    {
+      "key": "groupButtons.groupButtonbxht52hxlm.label"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonx8jvgi8xgi.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonvnk464g7y2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonxzorlu09w6.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonpuvvhj1ash.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonikjy0mdf39.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonbxht52hxlm.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonx8jvgi8xgi.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonvnk464g7y2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonxzorlu09w6.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonpuvvhj1ash.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonikjy0mdf39.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonbxht52hxlm.onClick"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.menuItems.menuItemvx5w4g17nu.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.menuItems.menuItem5ujn8k1pqx.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.menuItems.menuItems86knziw66.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItem9rkuabyoea.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.menuItems.menuItemxobs3qag5c.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonx8jvgi8xgi.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonvnk464g7y2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonxzorlu09w6.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonpuvvhj1ash.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonikjy0mdf39.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonbxht52hxlm.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton1": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==7) {return 'black';} else {return Slot_Select_7.data[0].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{Slot_Select_7.data[0].fslID}}",
+      "menuItems": {
+        "menuItemvx5w4g17nu": {
+          "id": "menuItemvx5w4g17nu",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Clear Slot",
+          "onClick": "{{storeValue('triggeredSlot', '1').then(() => {\n  showModal(Slot_Clear_Confirm.name);\n});}}",
+          "widgetId": "fxu5lsby81"
+        }
+      },
+      "onClick": "{{storeValue('Current_Slot', '7');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==16) {return 'black';} else {return Slot_Select_7.data[1].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{Slot_Select_7.data[1].fslID}}",
+      "menuItems": {
+        "menuItem5ujn8k1pqx": {
+          "id": "menuItem5ujn8k1pqx",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Update ID",
+          "onClick": "{{storeValue('triggeredSlot', '10').then(() => {\n  showModal(Slot_Update_Modal.name);\n});}}",
+          "widgetId": "5z34vfmedu"
+        },
+        "menuItems86knziw66": {
+          "id": "menuItems86knziw66",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Clear Slot",
+          "onClick": "{{storeValue('triggeredSlot', '10').then(() => {\n  showModal(Slot_Clear_Confirm.name);\n});}}",
+          "widgetId": "81m2a8p6qh"
+        }
+      },
+      "onClick": "{{storeValue('Current_Slot', '16');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton3": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==25) {return 'black';} else {return Slot_Select_7.data[2].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "disabledWhenInvalid": false,
+      "id": "groupButton3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "{{Slot_Select_7.data[2].fslID}}",
+      "menuItems": {
+        "menuItem9rkuabyoea": {
+          "id": "menuItem9rkuabyoea",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Update ID",
+          "onClick": "{{storeValue('triggeredSlot', '19').then(() => {\n  showModal(Slot_Update_Modal.name);\n});}}",
+          "widgetId": "86essg25j9"
+        },
+        "menuItemxobs3qag5c": {
+          "id": "menuItemxobs3qag5c",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Clear Slot",
+          "onClick": "{{storeValue('triggeredSlot', '19').then(() => {\n  showModal(Slot_Clear_Confirm.name);\n});}}",
+          "widgetId": "6bs9pl4598"
+        }
+      },
+      "onClick": "{{storeValue('Current_Slot', '25');}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButtonbxht52hxlm": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==79) {return 'black';} else {return Slot_Select_7.data[8].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonbxht52hxlm",
+      "index": 8,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "{{Slot_Select_7.data[8].fslID}}",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Slot', '79');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "yoewfm32aa"
+    },
+    "groupButtonikjy0mdf39": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==70) {return 'black';} else {return Slot_Select_7.data[7].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonikjy0mdf39",
+      "index": 7,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "{{Slot_Select_7.data[7].fslID}}",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Slot', '70');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "394113zy5u"
+    },
+    "groupButtonpuvvhj1ash": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==61) {return 'black';} else {return Slot_Select_7.data[6].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonpuvvhj1ash",
+      "index": 6,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "{{Slot_Select_7.data[6].fslID}}",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Slot', '61');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "9aq720mypz"
+    },
+    "groupButtonvnk464g7y2": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==43) {return 'black';} else {return Slot_Select_7.data[4].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonvnk464g7y2",
+      "index": 4,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "{{Slot_Select_7.data[4].fslID}}",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Slot', '43');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "i7yt2blrr2"
+    },
+    "groupButtonx8jvgi8xgi": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==34) {return 'black';} else {return Slot_Select_7.data[3].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonx8jvgi8xgi",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "{{Slot_Select_7.data[3].fslID}}",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Slot', '34');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "g5uktrc7i1"
+    },
+    "groupButtonxzorlu09w6": {
+      "buttonColor": "{{(function() {if (appsmith.store.Current_Slot ==52) {return 'black';} else {return Slot_Select_7.data[5].color;} \n})()}}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonxzorlu09w6",
+      "index": 5,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "{{Slot_Select_7.data[5].fslID}}",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Slot', '52');}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "ddfxtdfssc"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "w33wp9ypk4",
+  "leftColumn": 45,
+  "minWidth": 450,
+  "mobileBottomRow": 80,
+  "mobileLeftColumn": 31,
+  "mobileRightColumn": 55,
+  "mobileTopRow": 76,
+  "needsErrorInfo": false,
+  "orientation": "vertical",
+  "originalBottomRow": 105,
+  "originalTopRow": 49,
+  "parentColumnSpace": 19.9375,
+  "parentId": "ricb9klvr3",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 50,
+  "topRow": 0,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "qrkdusjc9v",
+  "widgetName": "Col_7"
+}

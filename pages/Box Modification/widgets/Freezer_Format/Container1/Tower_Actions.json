@@ -1,0 +1,83 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 24,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton9i5vukl5b7.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton2": {
+      "buttonColor": "blue",
+      "buttonType": "SIMPLE",
+      "iconName": "camera",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "Tower Photos",
+      "menuItems": {},
+      "onClick": "{{showModal(Tower_Photos_Modal.name).then(() => {\n  Tower_Photo_Select.run();\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton9i5vukl5b7": {
+      "buttonColor": "navy",
+      "buttonType": "SIMPLE",
+      "iconName": "list-detail-view",
+      "id": "groupButton9i5vukl5b7",
+      "index": 0,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "Tower Details",
+      "menuItems": {},
+      "onClick": "{{Tower_Helper.run().then(() => {\n  showModal(Tower_Details_Modal.name);\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "bqxui9rwqo"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vpsis4ikmi",
+  "leftColumn": 0,
+  "minWidth": 450,
+  "mobileBottomRow": 28,
+  "mobileLeftColumn": 5,
+  "mobileRightColumn": 29,
+  "mobileTopRow": 24,
+  "needsErrorInfo": false,
+  "orientation": "vertical",
+  "originalBottomRow": 35,
+  "originalTopRow": 11,
+  "parentColumnSpace": 19.875,
+  "parentId": "1d7dqgzz7m",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 11,
+  "topRow": 0,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "9f8jnrde3z",
+  "widgetName": "Tower_Actions"
+}

@@ -1,0 +1,1 @@
+UPDATE boxImages SET notes = {{Box_Photos_Table.updatedRow.notes}} WHERE ID = {{Box_Photos_Table.updatedRow.ID}};

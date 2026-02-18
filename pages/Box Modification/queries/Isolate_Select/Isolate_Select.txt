@@ -1,0 +1,5 @@
+SELECT
+	isolates.designation,
+	CAST(LPAD(isolates.number, 4, 0) AS CHAR) as number
+FROM slots LEFT JOIN isolates ON slots.isolate = isolates.ID
+WHERE slots.box = (SELECT ID from boxes WHERE tower = (SELECT ID from towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) AND box = {{appsmith.store.Current_Box}}) AND slots.slot = {{appsmith.store.Current_Slot}};

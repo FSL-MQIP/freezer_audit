@@ -1,0 +1,8 @@
+INSERT IGNORE INTO isolates (designation, number)
+VALUES
+	({{Slot_Update_Designation.selectedOptionValue}}, {{Slot_Update_Number.text}});
+
+UPDATE slots
+	SET
+		isolate = (SELECT ID from isolates WHERE designation = {{Slot_Update_Designation.selectedOptionValue}} AND number = {{Slot_Update_Number.text}})
+	WHERE box = (SELECT ID from boxes WHERE tower = (SELECT ID from towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) AND box = {{appsmith.store.Current_Box}}) AND slot = {{appsmith.store.Current_Slot}};

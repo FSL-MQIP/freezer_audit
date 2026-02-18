@@ -1,0 +1,416 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 8,
+  "boxShadow": "none",
+  "buttonVariant": "PRIMARY",
+  "childStylesheet": {
+    "button": {
+      "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+    }
+  },
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonown7f3ygbn.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2c4b9n70dh.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonuu8wc5cvrt.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonq124t8gqp6.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonts1w6oqa3j.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton4u7qxqplrm.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonils7mpdpxd.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton0blju3anws.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton97tdqte7m4.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton97tdqte7m4.isVisible"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "groupButtons.groupButton97tdqte7m4.isVisible"
+    },
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton1.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonown7f3ygbn.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonown7f3ygbn.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton2c4b9n70dh.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2c4b9n70dh.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonuu8wc5cvrt.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonuu8wc5cvrt.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonq124t8gqp6.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonq124t8gqp6.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonts1w6oqa3j.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonts1w6oqa3j.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton4u7qxqplrm.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton4u7qxqplrm.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButtonils7mpdpxd.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonils7mpdpxd.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton0blju3anws.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton0blju3anws.buttonColor"
+    },
+    {
+      "key": "groupButtons.groupButton97tdqte7m4.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton97tdqte7m4.buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "groupButtons.groupButton1.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton3.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonown7f3ygbn.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton2c4b9n70dh.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonuu8wc5cvrt.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonq124t8gqp6.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonts1w6oqa3j.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton4u7qxqplrm.onClick"
+    },
+    {
+      "key": "groupButtons.groupButtonils7mpdpxd.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton0blju3anws.onClick"
+    },
+    {
+      "key": "groupButtons.groupButton97tdqte7m4.onClick"
+    }
+  ],
+  "groupButtons": {
+    "groupButton0blju3anws": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 33) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton0blju3anws",
+      "index": 10,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "33",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '33').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "xfgqyxkt5l"
+    },
+    "groupButton1": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 3) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton1",
+      "index": 0,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "3",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '3').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 6) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton2",
+      "index": 1,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "6",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '6').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton2c4b9n70dh": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 15) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton2c4b9n70dh",
+      "index": 4,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "15",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '15').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "uur1t0of3v"
+    },
+    "groupButton3": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 9) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton3",
+      "index": 2,
+      "isDisabled": false,
+      "isVisible": true,
+      "label": "9",
+      "menuItems": {
+        "menuItem1": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem1",
+          "index": 0,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "First Option",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem2": {
+          "backgroundColor": "#FFFFFF",
+          "id": "menuItem2",
+          "index": 1,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Second Option",
+          "onClick": "",
+          "widgetId": ""
+        },
+        "menuItem3": {
+          "backgroundColor": "#DD4B34",
+          "iconAlign": "right",
+          "iconColor": "#FFFFFF",
+          "iconName": "trash",
+          "id": "menuItem3",
+          "index": 2,
+          "isDisabled": false,
+          "isVisible": true,
+          "label": "Delete",
+          "onClick": "",
+          "textColor": "#FFFFFF",
+          "widgetId": ""
+        }
+      },
+      "onClick": "{{storeValue('Current_Tower', '9').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "widgetId": ""
+    },
+    "groupButton4u7qxqplrm": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 27) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton4u7qxqplrm",
+      "index": 8,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "27",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '27').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "25np9ogamg"
+    },
+    "groupButton97tdqte7m4": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 36) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButton97tdqte7m4",
+      "index": 11,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": "{{Freezer_Type.data[0].towers > 33}}",
+      "itemType": "BUTTON",
+      "label": "36",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '36').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "09h1hmmryv"
+    },
+    "groupButtonils7mpdpxd": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 30) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonils7mpdpxd",
+      "index": 9,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "30",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '30').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "qg1vp4v311"
+    },
+    "groupButtonown7f3ygbn": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 12) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonown7f3ygbn",
+      "index": 3,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "12",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '12').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "xuq27kpucq"
+    },
+    "groupButtonq124t8gqp6": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 21) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonq124t8gqp6",
+      "index": 6,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "21",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '21').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "of0ai096rm"
+    },
+    "groupButtonts1w6oqa3j": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 24) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonts1w6oqa3j",
+      "index": 7,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "24",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '24').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "ggjtz2do1w"
+    },
+    "groupButtonuu8wc5cvrt": {
+      "buttonColor": "{{ (function() {\n    if (appsmith.store.Current_Tower == 18) {\n        return 'black';\n    } else {\n        return 'skyblue';\n    }\n})() }}",
+      "buttonType": "SIMPLE",
+      "id": "groupButtonuu8wc5cvrt",
+      "index": 5,
+      "isDisabled": false,
+      "isSeparator": false,
+      "isVisible": true,
+      "itemType": "BUTTON",
+      "label": "18",
+      "menuItems": {},
+      "onClick": "{{storeValue('Current_Tower', '18').then(() => {\n  Slot_Select_1.run();\n  Slot_Select_2.run();\n  Slot_Select_3.run();\n  Slot_Select_4.run();\n  Slot_Select_5.run();\n  Slot_Select_6.run();\n  Slot_Select_7.run();\n  Slot_Select_8.run();\n  Slot_Select_9.run();\n});}}",
+      "placement": "CENTER",
+      "variant": "filled",
+      "widgetId": "911bylg33y"
+    }
+  },
+  "isCanvas": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "mpyr43889g",
+  "leftColumn": 12,
+  "minWidth": 450,
+  "mobileBottomRow": 4,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 10,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "orientation": "horizontal",
+  "originalBottomRow": 19,
+  "originalTopRow": 11,
+  "parentColumnSpace": 16.375,
+  "parentId": "1d7dqgzz7m",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 64,
+  "topRow": 0,
+  "type": "BUTTON_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "r2dhmotnb6",
+  "widgetName": "Chest_Row_3"
+}
