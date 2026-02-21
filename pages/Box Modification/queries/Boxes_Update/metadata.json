@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "UPDATE boxes SET\n\ttower = (SELECT ID FROM towers WHERE freezer = {{Box_Details_Freezer.selectedOptionValue}} AND tower = {{Box_Details_Tower.selectedOptionLabel}}),\n\tbox = {{Box_Details_Box.selectedOptionLabel}},\n\tnotes = {{Box_Details_Notes.text}}\nWHERE ID = {{Box_Details_Box.selectedOptionValue}};",
+      "body": "UPDATE boxes SET\n\tlabel = {{Box_Details_Label.text}},\n\tnotes = {{Box_Details_Notes.text}}\nWHERE ID = {{Box_Details_Box.selectedOptionValue}};",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

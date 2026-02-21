@@ -1,1 +1,0 @@
-SELECT notes FROM boxes WHERE tower = (SELECT ID FROM towers WHERE freezer = {{Tower_Details_Freezer.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) AND box = {{appsmith.store.Current_Box}};

@@ -1,5 +1,3 @@
 UPDATE towers SET
-	freezer = {{Tower_Details_Freezer.selectedOptionValue}},
-	tower = {{Tower_Details_Tower.selectedOptionLabel}},
 	notes = {{Tower_Details_Notes.text}}
 WHERE ID = {{Tower_Details_Tower.selectedOptionValue}};

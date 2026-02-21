@@ -1,5 +1,4 @@
 UPDATE boxes SET
-	tower = (SELECT ID FROM towers WHERE freezer = {{Box_Details_Freezer.selectedOptionValue}} AND tower = {{Box_Details_Tower.selectedOptionLabel}}),
-	box = {{Box_Details_Box.selectedOptionLabel}},
+	label = {{Box_Details_Label.text}},
 	notes = {{Box_Details_Notes.text}}
 WHERE ID = {{Box_Details_Box.selectedOptionValue}};
