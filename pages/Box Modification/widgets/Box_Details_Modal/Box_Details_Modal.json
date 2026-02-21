@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 38,
+  "bottomRow": 408,
   "boxShadow": "none",
   "canEscapeKeyClose": true,
   "canOutsideClickClose": true,
@@ -57,6 +57,11 @@
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClose"
+    }
+  ],
   "height": 380,
   "isCanvas": true,
   "isLoading": false,
@@ -70,6 +75,7 @@
   "mobileRightColumn": 40,
   "mobileTopRow": 34,
   "needsErrorInfo": false,
+  "onClose": "{{resetWidget(\"Box_Details_Label\", false);\nresetWidget(\"Box_Details_Notes\", false);}}",
   "parentColumnSpace": 19.9375,
   "parentId": "0",
   "parentRowSpace": 10,
