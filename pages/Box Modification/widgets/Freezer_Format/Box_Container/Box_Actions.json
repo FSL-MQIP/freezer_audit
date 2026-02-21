@@ -86,7 +86,7 @@
       "itemType": "BUTTON",
       "label": "Box Details",
       "menuItems": {},
-      "onClick": "{{Tower_Helper.run().then(() => {\n  Box_Helper.run();\n  Boxes_Select.run();\n  showModal(Box_Details_Modal.name);\n});}}",
+      "onClick": "{{Tower_Helper.run().then(() => {\n  Box_Helper.run();\n  Boxes_Select.run();\n  showModal(Box_Details_Modal.name);\n});\nBox_Label_Notes_Select.run()}}",
       "placement": "CENTER",
       "variant": "filled",
       "widgetId": "fj52nglv58"

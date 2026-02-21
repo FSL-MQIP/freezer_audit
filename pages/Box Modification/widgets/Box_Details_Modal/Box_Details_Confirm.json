@@ -32,7 +32,7 @@
   "mobileRightColumn": 63,
   "mobileTopRow": 18,
   "needsErrorInfo": false,
-  "onClick": "{{Towers_Update.run().then(() => {\n  closeModal(Box_Details_Modal.name);\n});}}",
+  "onClick": "{{Boxes_Update.run().then(() => {\n  closeModal(Box_Details_Modal.name);\n});}}",
   "originalBottomRow": 36,
   "originalTopRow": 32,
   "parentId": "lx136t0eey",
