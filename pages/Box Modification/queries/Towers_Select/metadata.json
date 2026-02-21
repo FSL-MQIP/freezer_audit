@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT ID, tower FROM towers WHERE freezer = {{Tower_Details_Freezer.selectedOptionValue}} ORDER BY tower",
+      "body": "SELECT DISTINCT ID, tower FROM towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} ORDER BY tower",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

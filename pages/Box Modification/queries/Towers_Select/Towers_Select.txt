@@ -1,1 +1,1 @@
-SELECT DISTINCT ID, tower FROM towers WHERE freezer = {{Tower_Details_Freezer.selectedOptionValue}} ORDER BY tower
+SELECT DISTINCT ID, tower FROM towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} ORDER BY tower

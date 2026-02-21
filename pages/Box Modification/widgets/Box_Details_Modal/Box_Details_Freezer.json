@@ -56,7 +56,7 @@
   "responsiveBehavior": "fill",
   "rightColumn": 31,
   "serverSideFiltering": false,
-  "sourceData": "{{Freezer_Select.data.map( p => ({label: p.freezer, value: p.ID}))}}",
+  "sourceData": "{{Freezer_Select.data.map( p => ({label: String(p.freezer), value: String(p.ID)}))}}",
   "topRow": 5,
   "type": "SELECT_WIDGET",
   "version": 1,

@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT DISTINCT ID, box FROM boxes WHERE tower = (SELECT ID FROM towers WHERE freezer = {{Tower_Details_Freezer.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) ORDER BY box",
+      "body": "SELECT DISTINCT ID, box FROM boxes WHERE tower = (SELECT ID FROM towers WHERE freezer = {{Freezer_Select_Select.selectedOptionValue}} AND tower = {{appsmith.store.Current_Tower}}) ORDER BY box",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
